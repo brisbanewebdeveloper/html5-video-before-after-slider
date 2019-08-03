@@ -1,0 +1,24 @@
+.video-compare-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  line-height: 0;
+}
+.video-compare-container > video {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.video-clipper {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.video-clipper video {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+}
